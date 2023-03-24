@@ -1,4 +1,28 @@
+whoami => current user
 pwd  => print working directory
 ls   => list
 cd   => change directory
 /    => root file system
+
+
+ps => process status
+$ => user
+# => root user
+su => switch user
+id => info about user
+hostname => tells hostname
+uname => kernel
+uname -r => kernel version
+uname -a => all kernel info
+ifconfig => network
+ip => network
+netstat => network stat
+ss => session status
+who => who is logged
+env => enviornment variables
+lsblk => hardrive
+lsusb => usbs
+lsof = list open files
+man uname => manual of command
+uname -h / uname --help => uname help
+apropos usb => search for commands with usb on it

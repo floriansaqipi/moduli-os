@@ -1,0 +1,33 @@
+pwd 
+cd
+cd Desktop
+clear
+mkdir
+rmdir = rm -d
+rm -r kur so i zbrazt
+gedit smth.c
+gcc -v
+sudo apt install gcc
+gcc -o hello hello.c
+./hello
+make file 
+replaced if the same name is compiled it is replaced
+normal user can t exectute some commandss and no acess to kernel while su has
+sudo mkdir Test //si super user
+qe ki me perdor shpesh su
+
+me shti n kernel ku compile bohet 
+e shtimi ni hello mrena ni hello.c
+
+#include<linux/kernel.h>
+asimlinake long sys_hello(void){
+    printk("Hello world\n")
+    return 0;
+}
+
+thirrje sistemore makefile duhet me pas MakeFile emrin
+obj-y = hello.o
+
+shkon n linux kernel
+e hap makefile
+core-y+=kernel/mm/
