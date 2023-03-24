@@ -1,9 +1,16 @@
-whoami => current user
 pwd  => print working directory
 ls   => list
 cd   => change directory
 /    => root file system
 
+whoami => current user
+clear => clears terminal
+cat => concatenate
+cp file.txt fileCopy.txt => copy file to file
+sudo => superuser do
+rm -r => removes
+sudo adduser someone => creates new user
+which ls => which command
 
 ps => process status
 $ => user
@@ -26,3 +33,25 @@ lsof = list open files
 man uname => manual of command
 uname -h / uname --help => uname help
 apropos usb => search for commands with usb on it
+
+sudo adduser => adds a user 
+/etc/passwd/ => :x:
+/etc/shadow/
+sudo usseradd someone => adds immediately user
+sudo passwd someone => set password
+sudo usermod someone --shell /bin/bash => change shell 
+sudo usermod someone -l newname oldname => change name
+usseradd someone -m => gets home directory
+su someone => switch user
+sudo su root => become root
+sudoers file => file of users who have acess to sudo
+sudo visudo=> config that file
+add user to that file with => someone ALL = ALL (acess to all systems and all commands)
+sudo userdel someone=> user delete
+sudo groupadd someone /addgroup someone => adds group
+etc/group => file with groups
+groups => tells you which groups you re a member of
+%somegroup = ALL = NOPASSWD:ALL => group can do stuff on all systems without password all commandss
+sudo usermod -aG somegroup someuser=> add someone to group but not remove from other groups
+sudo gpasswd  -d someone somegroup => remove someone from group
+sudo groupdel somegroup => deletes group
